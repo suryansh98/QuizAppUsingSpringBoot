@@ -1,4 +1,4 @@
-package com.suryansh.QuizApp;
+package com.suryansh.QuizApp.TableMap;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;

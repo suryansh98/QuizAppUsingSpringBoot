@@ -1,7 +1,7 @@
 package com.suryansh.QuizApp.service;
 
 import com.suryansh.QuizApp.DAO.QuestionDAO;
-import com.suryansh.QuizApp.Question;
+import com.suryansh.QuizApp.TableMap.Question;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -17,5 +17,10 @@ public class QuestionService {
 
         return questionDAO.findAll();
 
+    }
+
+    public List<Question> getQuestionsByCategory(String category) {
+
+        return questionDAO.findByCategory(category);
     }
 }
