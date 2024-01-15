@@ -1,7 +1,7 @@
 package com.suryansh.QuizApp.service;
 
 import com.suryansh.QuizApp.DAO.QuestionDAO;
-import com.suryansh.QuizApp.TableMap.Question;
+import com.suryansh.QuizApp.model.Question;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
